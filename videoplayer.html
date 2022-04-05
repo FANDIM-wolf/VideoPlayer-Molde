@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <p>ViedoPlayer</p>
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body> 
+<p>Norsk Lessons</p>
+
+
+<video  id="video" width="650" height="400" src="norsk1.mp4"  onTimeUpdate="progressUpdate()"></video>
+<div id="durationBar">
+    <div id="positionBar" ><span id="displayStatus">0</span></div>
+  </div>
+<div id="interface">
+    <div id="play"></div>
+    <div id="pause"></div>
+    <div id="mute"></div>
+    
+    <div id="position"><div></div></div>
+</div>
+
+<script text="text/javascript" src="videoplayer_script.js">
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+p{
+    color:darkred;
+}
+#play{
+    
+    width: 32px;
+    height: 32px;
+    background-image:url('images/play.png');
+    border-radius: 3px;
+}
+#interface{
+    padding: 25px;
+}
+
+#positionBar {
+    height: 30px;
+    color: black;
+    font-weight: bold;
+    background: red;
+    text-align: center;
+ }
+ 
+ #positionBar span {
+    display: inline-block;
+    margin-top: 5px;
+ }
+ 
+ #durationBar {
+    border: solid 1px black;
+    width: 650px;
+    margin-bottom: 5px;
+ }
